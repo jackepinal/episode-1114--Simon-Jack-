@@ -1,3 +1,5 @@
+#this checks for whether or not the inserted date is a leap year by whether or not its divisible by 100
+
 def is_leap_year(year: int) -> bool:
     if year % 400 == 0:
         return True
