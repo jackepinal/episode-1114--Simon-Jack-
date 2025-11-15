@@ -44,4 +44,4 @@ if __name__ == '__main__':
         day2 = int(sys.argv[6])
 
         print(f'There are {day_counter(year1, month1, day1, year2, month2, day2)} days between {year1}-{month1}-{day1} and {year2}-{month2}-{day2}.')
-        #some more awesome code
+        #some more awesome codeg
