@@ -1,10 +1,10 @@
 from days_in_month import days_in_month
 
-def is_valid_date(year: int, months: int, day: int) -> bool:
-    if months < 1 or months > 12:
+def is_valid_date(year: int, month: int, day: int) -> bool:
+    if month < 1 or month > 12:
         return False
 
-    if day < 1 or day > days_in_month(year, months):
+    if day < 1 or day > days_in_month(year, month):
         return False
     else:
         return True
@@ -19,3 +19,4 @@ if __name__ == '__main__':
     print(f'2023-02-29 (False): {is_valid_date(2023, 2, 29)}')
     print(f'1900-02-29 (False): {is_valid_date(1900, 2, 29)}')
     print(f'2000-02-29 (True): {is_valid_date(2000, 2, 29)}')
+    #this is some badass code
